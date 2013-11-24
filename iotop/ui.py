@@ -442,7 +442,7 @@ class IOTopUI(object):
 
     def refresh_display(self, first_time, total, actual, duration):
         summary = [
-                'Total DISK READ : %s | Total DISK WRITE : %s' % (
+                ' Total DISK READ: %s |  Total DISK WRITE: %s' % (
                 format_bandwidth(self.options, total[0], duration).rjust(14),
                 format_bandwidth(self.options, total[1], duration).rjust(14)),
                 'Actual DISK READ: %s | Actual DISK WRITE: %s' % (
